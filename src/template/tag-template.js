@@ -5,7 +5,7 @@ import RecipesList from "../components/RecipesList"
 import SEO from "../components/SEO"
 
 const TagTemplate = (props) => {
-    console.log({props})
+    // console.log({props})
     const {data,pageContext:{tag}} = props;
     // const recipes = 
     const {recipes:{nodes}} = data;

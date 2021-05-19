@@ -22,7 +22,7 @@ const Query = graphql`
 
 const ComponentName = () => {
   const data = useStaticQuery(Query)
-  console.log({data});
+//   console.log({data});
   return <div>
       <div>
           {data.site.siteMetadata.description}

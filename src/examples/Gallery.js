@@ -30,7 +30,7 @@ const Gallery = () => {
     const data = useStaticQuery(Query);
 
     const { allFile: { totalCount, images } } = data;
-    console.log({ totalCount, images })
+    // console.log({ totalCount, images })
     return (
         <Wrapper>
             {

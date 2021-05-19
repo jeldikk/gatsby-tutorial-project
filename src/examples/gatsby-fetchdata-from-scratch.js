@@ -19,7 +19,7 @@ const Query = graphql`
 const FetchDataFromScratch = ()=>{
     const data = useStaticQuery(Query);
 
-    console.log({data})
+    // console.log({data})
     return <div>
         from scratch
     </div>
