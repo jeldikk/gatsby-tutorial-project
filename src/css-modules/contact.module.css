@@ -1,0 +1,19 @@
+.heading{
+    color: red;
+}
+
+.details{
+    padding: 2rem;
+}
+
+.familyDetails{
+    color: blue;
+}
+
+.personalDetails{
+    color: indianred;
+}
+
+.professionalDetails{
+    color: purple
+}
